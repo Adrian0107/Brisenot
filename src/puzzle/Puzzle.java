@@ -91,35 +91,31 @@ public class Puzzle extends JFrame {
 		btn9.setVisible(false);
 
 		
-		JButton btnJuegoNuevo = new JButton("Juego nuevo");
+		JButton btnJuegoNuevo = new JButton("Otro juego");
 		btnJuegoNuevo.addActionListener(new ActionListener() {		
 			public void actionPerformed(ActionEvent e) {				
 				btn9.setVisible(false);				
-				int[] valores = new int[8];
-				int[] numeros = {1,2,3,4,5,6,7,8};
-												
-				int n=14;
+				int[] num1 = new int[8];
+				int [] num2 = {1,2,3,4,5,6,7,8};
 				for (int x=0; x<8;x++) {					
-					valores[x]=numeros[x];
+					num1[x]=num2[x];
 				}				
 								
-				btn1.setText(String.valueOf(valores[0]));
-				btn2.setText(String.valueOf(valores[1]));
-				btn3.setText(String.valueOf(valores[2]));
-				btn4.setText(String.valueOf(valores[3]));
-				btn5.setText(String.valueOf(valores[4]));
-				btn6.setText(String.valueOf(valores[5]));
-				btn7.setText(String.valueOf(valores[6]));
-				btn8.setText(String.valueOf(valores[7]));
-				
-				
+				btn1.setText(String.valueOf(num1[0]));
 				btn1.setVisible(true);
+				btn2.setText(String.valueOf(num1[1]));
 				btn2.setVisible(true);
+				btn3.setText(String.valueOf(num1[2]));
 				btn3.setVisible(true);
+				btn4.setText(String.valueOf(num1[3]));
 				btn4.setVisible(true);
+				btn5.setText(String.valueOf(num1[4]));
 				btn5.setVisible(true);
+				btn6.setText(String.valueOf(num1[5]));
 				btn6.setVisible(true);
+				btn7.setText(String.valueOf(num1[6]));
 				btn7.setVisible(true);
+				btn8.setText(String.valueOf(num1[7]));
 				btn8.setVisible(true);
 				
 			}
