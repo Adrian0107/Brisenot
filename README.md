@@ -1,5 +1,5 @@
 # brisenot 
-+ En la carpeta src viene los paquetes donde estan mis trabajos ordenados por numero
+1.En la carpeta [src] estan las carpetas
 
 
-+ En la carpeta src viene un paquete llamado "puzzle" donde se encuentra el trabajo puzzle
+2.En la carpeta src viene un paquete llamado "puzzle" donde se encuentra el trabajo puzzle
