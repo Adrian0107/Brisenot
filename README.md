@@ -1,5 +1,5 @@
 # brisenot 
-1.En la carpeta [src] estan las carpetas
+1.En la carpeta src estan las carpetas donde van mis tareas 
 
 
-2.En la carpeta src viene un paquete llamado "puzzle" donde se encuentra el trabajo puzzle
+2.[Tarea Puzzle] src>puzzle
